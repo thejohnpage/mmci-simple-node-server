@@ -1,6 +1,6 @@
 # Simple Server
 
-A Node.js Express application that provides a REST API for managing contacts and groups. This project serves as a simple example of a contact management system with JSON file-based storage.
+A Node.js Express application that provides a REST API for managing contacts and groups. This project serves as a simple example of a contact management system with memory based storage using JSON file to load example data.
 
 ## Features
 
