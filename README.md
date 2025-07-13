@@ -2,6 +2,7 @@
 
 A Node.js Express application that provides a REST API for managing contacts and groups. This project serves as a simple example of a contact management system with memory based storage using JSON file to load example data.
 
+The database services are abstracted from the underlying storage mechanism so they can be easily swapped out with other storage mechanisms such as NoSQL databases like MongoDB or SQL databases like MySQL.
 ## Features
 
 - **Contact Management**: Create, read, update, and delete contacts
