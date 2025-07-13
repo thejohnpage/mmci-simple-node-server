@@ -1,0 +1,24 @@
+{
+  "items":[
+    {
+      "id": 1,
+      "name": "Dev",
+      "slug":"dev"
+    },
+    {
+      "id": 2,
+      "name": "Design",
+      "slug":"design"
+    },
+    {
+      "id": 3,
+      "name": "Marketing",
+      "slug":"marketing"
+    },
+    {
+      "id": 4,
+      "name": "Family",
+      "slug":"family"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<h1>{{title}}</h1>
+<p>The following read (GET) endpoints are supported:</p>
+<p>The services support POST, UPDATE and DELETE methods as well. The Routes will need to be updated to call those methods.</p>
+<p>The database services are abstracted from the underlying storage mechanism so they can be easily swapped out with other storage mechanisms such as NoSQL databases like MongoDB or SQL databases like MySQL.</p>
+
+<table>
+    <tr>
+        <td>
+            <a href="/contacts">/contacts</a>
+        </td>
+        <td>
+            List all contact names
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/contacts?firstName=Joe">/contacts?firstName=...</a>
+        </td>
+        <td>
+            Get a single contact by any of the properties of the contact object.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/groups">/groups</a>
+        </td>
+        <td>
+            List all groups
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/groups/used">/groups/used</a>
+        </td>
+        <td>
+            List all groups that have contacts assigned to them
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/groups/group/Dev">/groups/group/{group}</a>
+        </td>
+        <td>
+            List all members of group for example the "Dev" group
+        </td>
+    </tr>
+</table>
